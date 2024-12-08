@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilização geral */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0ff; /* Fundo claro com uma nuance suave */
+    color: #333;
+  }
+  
+  /* Estilização do cabeçalho */
+  header {
+    background-color: #4c4799; /* Azul roxo escuro */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilização do menu */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #8679bc; /* Azul arroxeado */
+    padding: 5px 0;
+    border-bottom: 3px solid #4c4799; /* Linha de destaque */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efeito suave ao passar o mouse */
+  }
+  
+  nav ul li a:hover {
+    color: #9aaece; /* Azul claro vibrante para interatividade */
+  }
+  
+  /* Estilização do rodapé */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4c4799; /* Azul roxo escuro */
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* Estilização do conteúdo principal */
+  main {
+    padding: 20px;
+    text-align: center;
+    background-color: #9aaece; /* Azul claro suave */
+    border: 1px solid #8679bc; /* Contorno com tom arroxeado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Cantos arredondados */
+    color: #333;
+  }
+  /* Centralizando a foto */
+.foto-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .foto-container img {
+    width: 150px; /* Ajuste o tamanho da imagem */
+    height: 150px; /* Mantenha a proporção desejada */
+    border-radius: 50%; /* Deixa a foto redonda */
+    object-fit: cover; /* Garante que a imagem se encaixa bem */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+  }
